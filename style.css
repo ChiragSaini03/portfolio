@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    /* background-image: url('bg.jpeg'); 
+    background-size: cover; */
+    background-color: #c4756f;
+    text-align:center;
+}
+.navbar{
+    width: 100%;
+    height:52px;
+    padding-top: 2px;
+    position: sticky;   /* fixed */
+    z-index: 1;
+    top: 0;
+    background: linear-gradient(
+90deg
+,#e0977b,#e0a799 60%);
+}
+.menuitems{
+    height:52px;
+    width:90%;
+    margin-left: 50px;
+    display:block;
+}
+.main:hover {
+    background: #c98f8b;
+    color: #ffff;
+  }
+.leftalign{
+    float:right;
+    /* display:inline-block; */
+}
+.main{
+    display: inline-block;
+    margin:auto;
+    color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Lucida";
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.main.home{
+    background-color: #c4756f;
+}
+.yourname{
+    float:left;
+    font-weight: bold;
+    /* display: inline-block; */
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.mainframe{
+    text-align:left;
+    display:inline-block;
+    /* padding-top: 90px;
+    padding-left:30px; */
+}
+.head{
+    padding-left: 36px;
+    display:inline-block;
+    /* width:60%; */
+    padding-top: 40px;
+    font: "Lucidia";
+    font-size: 3em;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+}
+.imgfr{
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 20px;
+    position:relative;
+    float:right;
+    text-align:right;
+    margin:15px 15px;
+}
+.img{
+    width:240px;
+    border:5px solid rgba(143, 241, 212, 0.815);
+    border-radius: 50%;
+    margin-left:auto;
+    /* float:right; */
+}
+.para_intro{
+    padding: 20px 40px;
+    color:#ffff;
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    font-size:21px;
+    max-width:900px;
+    font-family: 'Public Sans', sans-serif;
+}
+.hobby_button{
+    height: 50px;
+    width: 210px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+    border-width: 1px;
+    border: 2px solid #e6a8a3;
+    background-color:#e6a8a3;
+    font: "Lucidia";
+    font-size: 34px;
+    color: white;
+    padding-top: 6px;
+    margin-bottom:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.skill_button{
+    height: 50px;
+    width: 210px;
+    display:inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    border-width: 1px;
+    border: 2px solid #d6b2af;
+    background-color:#c4756f;
+    font: "Lucidia";
+    font-size: 34px;
+    color: #ffffff;
+    padding-top: 6px;
+    margin-bottom:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.hobby_button:hover {
+    background: linear-gradient(
+        180deg
+        ,#0cbbac,#8ce7c9 100%);
+    color: #000000;
+}
+.skill_button:hover {
+    background: linear-gradient(
+        180deg
+        ,#0cbbac,#8ce7c9 100%);
+    color: #000000;
+}
+/* .para_container{
+    position:relative;
+} */
+.button_para{
+    display:inline-block;
+    position:relative;
+    bottom:0;
+    padding-left: 20px;
+    text-align:center;
+}
+.high{
+    color:#8ff6d4;
+    font-weight: bold;
+}
+.togglebutton{
+    top:1rem;
+    right:1em;
+    display:none;
+    flex-direction:column;
+    position: absolute;
+    justify-content: space-between;
+    height:21px;
+    width:30px;
+    cursor: pointer;
+}
+
+.layers{
+    width:100%;
+    height:4px;
+    background-color: white; 
+    border-radius: 10px;
+    
+}
+@media screen and (max-width:900px){
+    .menuitems{
+        display:block;
+        justify-content: none;
+    }
+    .togglebutton{
+        display:flex ;
+    }
+    .yourname{
+        display:block;
+    }
+    .leftalign{
+        z-index: -100;
+        float:none;
+        /* display:block; */
+        position:absolute;
+        width:100%;
+        right:0px;
+        background: linear-gradient(
+    90deg
+    ,#e0977b,#e0a799 60%);
+        top:-300px;
+        transition: all 0.3s ease-in;
+        padding: 0px;
+        vertical-align:middle;
+    }
+    .layers{
+        transition: all 0.3s ease-in;
+    }
+    
+}
+@media screen and (max-width:900px){
+    
+}

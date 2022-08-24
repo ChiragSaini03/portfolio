@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    /* background-image: url('bg.jpeg'); 
+    background-size: cover; */
+    /* overflow:hidden; */
+    background-color: #ffffff;
+}
+.imghobbies{
+    width:70px;
+    height:70px;
+    border-radius: 4px;
+    display:inline-block; 
+}
+.typepimg{
+    display:inline-block;
+    padding: 60px 60px;
+    text-align: center;
+}
+.hobby_type{
+    width:120px;
+    font-size: 35px;
+    font-family: "Lucida consolas";
+}
+.hobbies_03{
+    display: inline-block;
+    padding: 30px 30px;
+    justify-content: center;
+    padding-top: 80px;
+}
+.hobbies_01{
+    text-align: center;
+}

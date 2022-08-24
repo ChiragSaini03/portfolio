@@ -1,0 +1,47 @@
+
+.navbar{
+    width: 100%;
+    padding-top: 2px;
+    position: sticky;   /* fixed */
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    justify-content:space-between;
+    background: linear-gradient(
+90deg
+,#e0977b,#e0a799 60%);
+}
+.menuitems{
+    width:90%;
+    float:CENTER;
+    padding-left: 50px;
+}
+.main:hover {
+    background: #c98f8b;
+    color: #ffff;
+  }
+.main{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Lucida";
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.main.myhobby{
+    background-color: #c4756f;
+}
+.yourname{
+    font-weight: bold;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}

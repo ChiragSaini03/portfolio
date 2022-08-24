@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    /* background-image: url('bg.jpeg'); 
+    background-size: cover; */
+    background-color: #e6cfcd;
+}
+.navbar{
+    width: 100%;
+    padding-top: 2px;
+    position: sticky;   /*** not used fixed becoz it doesn't give space to navbar but go on top of other divs
+    sticky gives seperate space to navbar ***/
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    justify-content:space-between;
+    background: linear-gradient(
+90deg
+,#e0977b,#e0a799 60%);
+}
+.menuitems{
+    width:90%;
+    float:CENTER;
+    padding-left: 50px;
+}
+.main:hover {
+    background: #c98f8b;
+    color: #ffff;
+  }
+.main{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Lucida";
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.main.skill{
+    background-color: #c4756f;
+}
+.yourname{
+    font-weight: bold;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.skill1{
+    position: flex;
+    width:50%;
+    margin:0 auto;
+    display: inline-block; 
+    /* padding:100px 100px; */
+    justify-content: center;
+}
+.container{
+    padding-top: 25px;
+    position: absolute;
+    width:60%;
+    margin:0 auto;
+    display: inline-block; 
+    /* padding:100px 100px; */
+    justify-content: center;
+}
+.imglogo{
+    padding:5px 5px;
+    width:30px;
+    height:30px;
+    padding-top: 12px;
+}
+.bar {
+    width: 80%;
+    height:30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+  }
+.skill_type{
+    display:inline-block;
+    position:absolute;
+    margin:15px auto;
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: "Lucida";
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+
+.html {width: 60%;height:10px; background-color: #cc807a;border-radius: 5px;}
+.css {width: 50%;height:10px; background-color: #cc807a;border-radius: 5px;}
+.javascript {width: 20%;height:10px; background-color: #cc807a;border-radius: 5px;}
+.python {width: 90%;height:10px; background-color: #cc807a;border-radius: 5px;}
+.cpp {width: 40%;height:10px; background-color: #cc807a;border-radius: 5px;}
